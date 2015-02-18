@@ -4,4 +4,15 @@
     tools:context="com.example.cindy.mallk.app.StoreDetail">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_fav"
+        android:title="@string/fav"
+        android:icon="@android:drawable/btn_star_big_off"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_share"
+        android:title="@string/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
 </menu>
