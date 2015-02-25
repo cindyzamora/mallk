@@ -24,6 +24,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.cindy.mallk.app.MainActivity" />
         </activity>
+        <activity
+            android:name=".store_image"
+            android:label="@string/title_activity_store_image" >
+        </activity>
+        <activity
+            android:name=".ShareImage"
+            android:label="@string/title_activity_share_image" >
+        </activity>
     </application>
 
 </manifest>
